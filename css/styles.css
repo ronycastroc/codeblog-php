@@ -3,5 +3,65 @@
 }
 
 body {
-  background-color: #ccc;
+  background-color: #f8ecd4;
+}
+
+html {
+  min-height: 100vh;
+  position: relative;
+}
+
+main {
+  margin-bottom: 250px;
+}
+
+/* NAVBAR */
+
+#logo {
+  position: absolute;
+  top: 10px;
+  left: 9.5%;
+}
+
+#logo img {
+  width: 50px;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #230b00;
+  padding: 20px;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+#navbar li {
+  margin: 0 10px;
+  padding: 5px;
+}
+
+#navbar .nav-link {
+  color: #f8ecd4;
+  text-decoration: none;
+  transition: 0.5;
+  font-size: 14px;
+}
+
+#navbar .nav-link:hover {
+  color: #d4cfa5;
+}
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background-color: #230b00;
+  color: #f8ecd4;
+  padding: 50px 0;
 }
