@@ -46,7 +46,7 @@ main {
 #navbar .nav-link {
   color: #f8ecd4;
   text-decoration: none;
-  transition: 0.5;
+  transition: 0.5s;
   font-size: 14px;
 }
 
@@ -107,7 +107,7 @@ main {
 }
 
 .post-box .post-title a:hover {
-  color: #999;
+  color: #6058ac;
 }
 
 .post-box .post-description {
